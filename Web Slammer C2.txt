@@ -1,0 +1,41 @@
+  How To Install "Virus C2"    
+=============================
+  DEBIAN 10/11 <Server>
+Install Python 3.9/3.10
+
+PART 1
+
+PICK ONE OF THESES TO INSTALL TO YOUR VPS
+
+https://linuxize.com/post/how-to-install-python-3-9-on-debian-10/  <<-- (PYTHON 3.9 FOR DEBIAN 10)
+https://linuxways.net/debian/how-to-install-python-3-9-on-debian-11/ <<-- (PYTHON 3.9 FOR DEBIAN 11)
+https://computingforgeeks.com/how-to-install-python-on-debian-linux/ <<-- (PYTHON 3.10 FOR DEBIAN 10/11) 
+
+PART 2
+ADD THE SCRIPTS TO VPS USING MOBAXTERM OR WINSCP
+
+__pycache__ folder
+resources
+proxy
+virus.py
+
+PART 3
+
+INSTALL THE PLUGGINS
+
+pip3/pip3.9/pip3.10 install cloudscraper
+pip3/pip3.9/pip3.10 install socks
+pip3/pip3.9/pip3.10 install pysocks
+pip3/pip3.9/pip3.10 install colorama
+pip3/pip3.9/pip3.10 install undetected_chromedriver
+pip3/pip3.9/pip3.10 install httpx
+pip3/pip3.9/pip3.10 install pycryptodome
+pip3/pip3.9/pip3.10 install pywin32
+
+PART 4 
+*RUN THE NET*
+python3.9 Virus.py / python3.10 Virus.py
+
+
+
+
